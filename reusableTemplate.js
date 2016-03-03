@@ -1,10 +1,16 @@
 var library = (function(){
 	return {
 		// Utility --- Complete Functions Below
-		identity : function(val) {},
+		identity : function(val) {
+            return val;  
+        },
 
 		// Collections --- Complete Functions Below
-		each : function(list, iterator) {},
+		each : function(list, iterator) {
+            for (var i = 0; i < list.length; i++) {
+               iterator(list[i], i, list);
+               }
+        },      
 
 		filter : function(list, test) {},
 
