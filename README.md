@@ -46,6 +46,7 @@ objects and arrays.
     provide a default one.
 
 	*some - Similar to every but, returns true if any values pass the truth test.
+
 	*contains - Evaluates a collection and returns true if value is present.
 
 	#####Advanced
